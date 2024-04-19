@@ -45,7 +45,6 @@
 		834A0CAF1B79371A0073803A /* nesmapper9.c in Sources */ = {isa = PBXBuildFile; fileRef = 878700E21B675EB4006841C9 /* nesmapper9.c */; };
 		834A0CB01B79371A0073803A /* nesmapper66.c in Sources */ = {isa = PBXBuildFile; fileRef = 878700E31B675EB4006841C9 /* nesmapper66.c */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		9443D4411715F42200E452AC /* CrabZ80.c in Sources */ = {isa = PBXBuildFile; fileRef = 9443D3FC1715F31000E452AC /* CrabZ80.c */; };
 		9443D4421715F42500E452AC /* CrabZ80d.c in Sources */ = {isa = PBXBuildFile; fileRef = 9443D4001715F31000E452AC /* CrabZ80d.c */; };
 		9443D4431715F44E00E452AC /* 93c46.c in Sources */ = {isa = PBXBuildFile; fileRef = 9443D3AB1715F2EB00E452AC /* 93c46.c */; };
@@ -267,7 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D120E91711302600E868A8 /* OpenEmuBase.framework in Frameworks */,
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				1B46D09D14293CAD0025EF88 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
