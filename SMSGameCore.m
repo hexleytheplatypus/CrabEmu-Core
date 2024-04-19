@@ -26,7 +26,6 @@
 
 #import "SMSGameCore.h"
 #import <OpenEmuBase/OERingBuffer.h>
-#import <OpenGL/gl.h>
 #import "OESMSSystemResponderClient.h"
 #import "OEGGSystemResponderClient.h"
 #import "OESG1000SystemResponderClient.h"
@@ -217,14 +216,14 @@ console_t *cur_console;
     return smsvdp.framebuffer = (uint32*)hint;
 }
 
-- (GLenum)pixelFormat
+- (uint32_t)pixelFormat
 {
-    return GL_BGRA;
+    return OEPixelFormat_BGRA;
 }
 
-- (GLenum)pixelType
+- (uint32_t)pixelType
 {
-    return GL_UNSIGNED_INT_8_8_8_8_REV;
+    return OEPixelType_UNSIGNED_INT_8_8_8_8_REV;
 }
 
 # pragma mark - Audio
